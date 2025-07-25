@@ -9,7 +9,7 @@ plugins {
 
 android {
     namespace = "com.example.play_app"
-    compileSdk = 34 // ✅ Explicit compileSdk
+    compileSdk = 35
     ndkVersion = "27.0.12077973" // ✅ Fix for Firebase plugin NDK requirement
 
     compileOptions {
